@@ -69,3 +69,5 @@ C Program to Write a Sentence to a File
 C Program to Read the First Line From a File
 C Program to Display its own Source Code as Output
 C Program to Print Pyramids and Patterns
+
+Codes Completed:
