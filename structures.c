@@ -20,28 +20,20 @@ int main()
     {
         printf("%d. Enter Employee number:",i+1);
         scanf("%d",&emparr[i].Employeenumber);
-        fflush(stdin);
         printf("%d. Enter Employee name:",i+1);
         scanf("%s",emparr[i].Employeename);
-        fflush(stdin);
         printf("%d. Enter Employee designation:",i+1);
         scanf("%s",emparr[i].designation);
-        fflush(stdin);
         printf("%d. Enter Employee department:",i+1);
         scanf("%s",emparr[i].department);
-        fflush(stdin);
         printf("%d. Enter Employee BasicSalary:",i+1);
         scanf("%f",&emparr[i].BasicSalary);
-        fflush(stdin);
         printf("%d. Enter Employee DA:",i+1);
         scanf("%f",&emparr[i].DA);
-        fflush(stdin);
         printf("%d. Enter Employee HRF:",i+1);
         scanf("%f",&emparr[i].HRF);
-        fflush(stdin);
         printf("%d. Enter Employee PF:",i+1);
         scanf("%f",&emparr[i].PF);
-        fflush(stdin);
         emparr[i].TotalSalary=emparr[i].BasicSalary+emparr[i].DA+emparr[i].HRF+emparr[i].PF;
     }
     printf("Enter the ID of the employee whose details you have to see: ");
